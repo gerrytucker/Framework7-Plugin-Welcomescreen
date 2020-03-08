@@ -2,15 +2,19 @@
   Note: The content of this file must be manually minified and added to
   f7.welcomescreen.js and assign the result to the variable "css".
 */
+:root {
+  --f7-welcome-background-color: #fff;
+  --f7-welcome-text-color: #666;
+}
 .welcomescreen-container {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: var(--f7-welcome-background-color);
   z-index: 10500;
-  color: #666;
+  color: var(--f7-welcome-text-color);
   font-size: 16px;
 }
 
